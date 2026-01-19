@@ -42,3 +42,20 @@ public:
     }
 };
 
+
+int main() 
+{
+    Solution sol;
+    vector<int> nums = {1, 0, -1, 0, -2, 2};
+    long long target = 0;
+    vector<vector<int>> ans = sol.fourSum(nums, target);
+    cout << "Quadruplets:\n";
+    for (auto &v : ans) 
+    {
+        cout << "[ ";
+        for (int x : v) cout << x << " ";
+        cout << "]\n";
+    }
+    return 0;
+}
+
