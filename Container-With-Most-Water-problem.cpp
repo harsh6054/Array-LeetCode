@@ -25,12 +25,5 @@ public:
 };
 
 
-int main() 
-{
-    Solution sol;
-    vector<int> height1 = {1,8,6,2,5,4,8,3,7};
-    vector<int> height2 = {1,1};
-    cout << "Output 1: " << sol.maxArea(height1) << endl;
-    cout << "Output 2: " << sol.maxArea(height2) << endl;
-    return 0;
-}
+
+
